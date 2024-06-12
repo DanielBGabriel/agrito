@@ -19,3 +19,11 @@ body{
 .content{
  margin: 25px;
 }
+.paralax{
+    background-image: url("aaa.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
