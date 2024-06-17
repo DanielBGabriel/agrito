@@ -1,6 +1,8 @@
+
 body{
     font-family: 'Times New Roman', Times, serif;
-    margin: 0px;
+    margin: 10px;
+    background-color: #fcfbee;
     
     
    
@@ -27,31 +29,64 @@ body{
     justify-content: center;
     color: whitesmoke;
     
+    
 }
 
 header{
     background-color: darkolivegreen;
     border: solid darkolivegreen 10px;
 }
-.note{
-    background-color: black;
-    border: solid beige 10px;
+.barra{
+    background-color: rgb(56, 71, 28);
+    
     padding: 20px;
+    position: fixed;
+    width: 98%;
+    margin: -10px ;
 }
 a{
     text-decoration: none;
     color: white;
-    font-size: xx-large;
+    font-size: x-large;
 
 }
 ul{
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     list-style-type: none;
     display: flex;
+    margin-left: -100px;
   
    
 }
-li {
- margin-left: -40px;
+
+.txtoque{
+    background-color: aliceblue;
+    margin: 10px;
+    border-radius: 25px;
+    border: solid 10px aliceblue;
+    height: 300px;
+    text-align: center;
+  
+    
+    
+}
+.img{
+   float: right;
+  width: 25%;
+  margin: 10px;
+  margin-top: 15px;
+  margin-right: 60px;
+}
+.paralax2{
+    background-image: url("a3.avif");
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -40px;
+    margin-right:  -40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
