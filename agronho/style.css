@@ -36,7 +36,7 @@ header{
     background-color: darkolivegreen;
     border: solid darkolivegreen 10px;
 }
-.barra{
+div.barra{
     background-color: rgb(56, 71, 28);
     
     padding: 20px;
@@ -101,4 +101,8 @@ ul{
     background-color: darkolivegreen;
     margin: -35px;
     margin-top: 20px;
+}
+a:hover{
+    color: darkolivegreen;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
