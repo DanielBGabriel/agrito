@@ -96,13 +96,19 @@ ul{
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.bottom{
-    height: 300px;
+footer{
+    
     background-color: darkolivegreen;
     margin: -35px;
     margin-top: 20px;
+    text-align: center;
+    padding: 3px;
+    font-size: x-large;
+    color: white;
+    
 }
-a:hover{
+
+a.barra:hover{
     color: darkolivegreen;
     text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
