@@ -38,7 +38,7 @@ header{
 }
 div.barra{
     background-color: rgb(56, 71, 28);
-    
+   
     padding: 20px;
     position: fixed;
     width: 98%;
@@ -104,26 +104,20 @@ a.barra:hover{
     color: #aebdbd;
     
 }
-footer{
-   background-color: darkolivegreen;
-   color: white;
-   font-size: larger;
-   text-align: center;
-   display: flex;
-   padding: 30px;   
-   margin: -30px;
-   margin-right: -32px;
-   align-content: center;
-}
-.aut{
-   padding-left:25%;
-}
-.cred{
-    padding-right:25%
-   
-}
-.aut, .cred{
-      margin:50px;
-      display: inline-block;
-
-}
+footer {
+    background-color: darkolivegreen;
+    color: white;
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 30px; 
+    margin: -40px;
+ }
+ 
+ .aut, .cred {
+    margin: 0 60px; 
+    padding: 30px;
+    flex: 1 ; 
+ }
